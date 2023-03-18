@@ -2,7 +2,7 @@ version: 2
 updates:
   # Maintain dependencies for npm (JavaScript/TypeScript)
   - package-ecosystem: "npm"
-    directory: "/"
+    directory: "/glitchedcat-front-nextjs"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 10
