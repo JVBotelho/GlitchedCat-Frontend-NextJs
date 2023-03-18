@@ -1,0 +1,10 @@
+version: 2
+updates:
+  # Maintain dependencies for npm (JavaScript/TypeScript)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
+    # Use yarn version 1
+    versioning-strategy: "lockfile-only"
